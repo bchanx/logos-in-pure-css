@@ -13,7 +13,7 @@ The easiest way to use these icons is to import the corresponding .less file in 
 @import "relative/path/to/logos-in-pure-css/twitter.less";
 ```
 
-You can also link the stylesheet via .html (but you'll need a copy of [less.js](https://github.com/cloudhead/less.js/tree/master/dist), preferably > v1.3.3):
+You can also link the stylesheet via .html (but you'll need a copy of [less.js](https://github.com/cloudhead/less.js/tree/master/dist), tested on > v1.3.3):
 
 ```html
 <link type="text/less" rel="stylesheet" href="/path/to/logos-in-pure-css/twitter.less">
