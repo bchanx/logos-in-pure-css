@@ -1,7 +1,7 @@
 logos-in-pure-css
 =================
 
-Company logos created in pure CSS, built in [less](http://www.lesscss.org).
+Company logos created in pure CSS, built in [less](http://www.lesscss.org).  
 **See it in action here:** [bchanx.com/logos-in-pure-css-demo](http://www.bchanx.com/logos-in-pure-css-demo)
 
 Usage
