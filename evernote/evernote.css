@@ -1,0 +1,648 @@
+.logo-evernote-large {
+  background-color: #87c441;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  -ms-border-radius: 150px;
+  -o-border-radius: 150px;
+  border-radius: 150px;
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.logo-evernote-large div {
+  position: absolute;
+  background-color: #ffffff;
+}
+.logo-evernote-large div[class*=-none] {
+  background-color: #87c441;
+}
+.logo-evernote-large .head {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+  -webkit-border-radius: 0 20% 0 11px;
+  -moz-border-radius: 0 20% 0 11px;
+  -ms-border-radius: 0 20% 0 11px;
+  -o-border-radius: 0 20% 0 11px;
+  border-radius: 0 20% 0 11px;
+  width: 71px;
+  height: 103px;
+  left: 153px;
+  top: 75px;
+}
+.logo-evernote-large .head-top {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+  width: 65px;
+  height: 12px;
+  left: 154px;
+  top: 71px;
+}
+.logo-evernote-large .head-right {
+  width: 11px;
+  height: 115px;
+  left: 217px;
+  top: 88px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
+.logo-evernote-large .head-bottom {
+  -webkit-border-radius: 0 0 0 20px;
+  -moz-border-radius: 0 0 0 20px;
+  -ms-border-radius: 0 0 0 20px;
+  -o-border-radius: 0 0 0 20px;
+  border-radius: 0 0 0 20px;
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+  width: 70px;
+  height: 16px;
+  top: 169px;
+  left: 151px;
+}
+.logo-evernote-large .trunk-right {
+  -webkit-border-radius: 0 40% 62% 26px;
+  -moz-border-radius: 0 40% 62% 26px;
+  -ms-border-radius: 0 40% 62% 26px;
+  -o-border-radius: 0 40% 62% 26px;
+  border-radius: 0 40% 62% 26px;
+  width: 45px;
+  height: 110px;
+  left: 181px;
+  top: 133px;
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+.logo-evernote-large .trunk-bottom {
+  -webkit-border-radius: 7px 0 26% 40%;
+  -moz-border-radius: 7px 0 26% 40%;
+  -ms-border-radius: 7px 0 26% 40%;
+  -o-border-radius: 7px 0 26% 40%;
+  border-radius: 7px 0 26% 40%;
+  width: 56px;
+  height: 30px;
+  top: 214px;
+  left: 152px;
+}
+.logo-evernote-large .trunk-left {
+  -webkit-border-radius: 40% 0 0 39%;
+  -moz-border-radius: 40% 0 0 39%;
+  -ms-border-radius: 40% 0 0 39%;
+  -o-border-radius: 40% 0 0 39%;
+  border-radius: 40% 0 0 39%;
+  width: 36px;
+  height: 46px;
+  top: 196px;
+  left: 150px;
+}
+.logo-evernote-large .trunk-bottom-none {
+  -webkit-border-radius: 22% 0 9px 26%;
+  -moz-border-radius: 22% 0 9px 26%;
+  -ms-border-radius: 22% 0 9px 26%;
+  -o-border-radius: 22% 0 9px 26%;
+  border-radius: 22% 0 9px 26%;
+  width: 32px;
+  height: 14px;
+  left: 166px;
+  top: 210px;
+}
+.logo-evernote-large .trunk-right-none {
+  -webkit-border-radius: 130% 140% 50% 121%;
+  -moz-border-radius: 130% 140% 50% 121%;
+  -ms-border-radius: 130% 140% 50% 121%;
+  -o-border-radius: 130% 140% 50% 121%;
+  border-radius: 130% 140% 50% 121%;
+  width: 19px;
+  height: 32px;
+  top: 187px;
+  left: 179px;
+}
+.logo-evernote-large .trunk-left-none {
+  -webkit-border-radius: 0 170% 0 0;
+  -moz-border-radius: 0 170% 0 0;
+  -ms-border-radius: 0 170% 0 0;
+  -o-border-radius: 0 170% 0 0;
+  border-radius: 0 170% 0 0;
+  width: 18px;
+  height: 12px;
+  left: 178px;
+  top: 184px;
+}
+.logo-evernote-large .head-none {
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+  width: 19px;
+  height: 15px;
+  left: 182px;
+  top: 134px;
+}
+.logo-evernote-large .eye {
+  -webkit-border-radius: 100% 150% 0 0;
+  -moz-border-radius: 100% 150% 0 0;
+  -ms-border-radius: 100% 150% 0 0;
+  -o-border-radius: 100% 150% 0 0;
+  border-radius: 100% 150% 0 0;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+  width: 22px;
+  height: 5px;
+  left: 180px;
+  top: 145px;
+}
+.logo-evernote-large .ear-flap {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 33px;
+  height: 51px;
+  top: 65px;
+  left: 87px;
+}
+.logo-evernote-large .ear-flap-left-none {
+  -webkit-border-radius: 16px 0 0 0;
+  -moz-border-radius: 16px 0 0 0;
+  -ms-border-radius: 16px 0 0 0;
+  -o-border-radius: 16px 0 0 0;
+  border-radius: 16px 0 0 0;
+  width: 39px;
+  height: 20px;
+  top: 93px;
+  left: 67px;
+}
+.logo-evernote-large .ear-flap-right-none {
+  -webkit-border-radius: 9px 0 0 0;
+  -moz-border-radius: 9px 0 0 0;
+  -ms-border-radius: 9px 0 0 0;
+  -o-border-radius: 9px 0 0 0;
+  border-radius: 9px 0 0 0;
+  width: 25px;
+  height: 32px;
+  top: 58px;
+  left: 107px;
+}
+.logo-evernote-large .body-top {
+  -webkit-border-radius: 100% 110% 112% 100%;
+  -moz-border-radius: 100% 110% 112% 100%;
+  -ms-border-radius: 100% 110% 112% 100%;
+  -o-border-radius: 100% 110% 112% 100%;
+  border-radius: 100% 110% 112% 100%;
+  width: 52px;
+  height: 29px;
+  top: 56px;
+  left: 112px;
+}
+.logo-evernote-large .body-left {
+  -webkit-border-radius: 40px 0 0 167%;
+  -moz-border-radius: 40px 0 0 167%;
+  -ms-border-radius: 40px 0 0 167%;
+  -o-border-radius: 40px 0 0 167%;
+  border-radius: 40px 0 0 167%;
+  width: 52px;
+  height: 29px;
+  top: 98px;
+  left: 72px;
+}
+.logo-evernote-large .body-bottom-right {
+  -webkit-transform: rotate(11deg);
+  -moz-transform: rotate(11deg);
+  -ms-transform: rotate(11deg);
+  -o-transform: rotate(11deg);
+  transform: rotate(11deg);
+  -webkit-border-radius: 100% 100% 75% 0;
+  -moz-border-radius: 100% 100% 75% 0;
+  -ms-border-radius: 100% 100% 75% 0;
+  -o-border-radius: 100% 100% 75% 0;
+  border-radius: 100% 100% 75% 0;
+  width: 18px;
+  height: 42px;
+  top: 149px;
+  left: 132px;
+}
+.logo-evernote-large .body-bottom-left {
+  -webkit-transform: rotate(-11deg);
+  -moz-transform: rotate(-11deg);
+  -ms-transform: rotate(-11deg);
+  -o-transform: rotate(-11deg);
+  transform: rotate(-11deg);
+  -webkit-border-radius: 67% 100% 120% 68%;
+  -moz-border-radius: 67% 100% 120% 68%;
+  -ms-border-radius: 67% 100% 120% 68%;
+  -o-border-radius: 67% 100% 120% 68%;
+  border-radius: 67% 100% 120% 68%;
+  height: 78px;
+  width: 21px;
+  left: 76px;
+  top: 102px;
+}
+.logo-evernote-large .body-bottom {
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  -webkit-border-radius: 171% 120% 24px 100%;
+  -moz-border-radius: 171% 120% 24px 100%;
+  -ms-border-radius: 171% 120% 24px 100%;
+  -o-border-radius: 171% 120% 24px 100%;
+  border-radius: 171% 120% 24px 100%;
+  width: 61px;
+  height: 15px;
+  left: 86px;
+  top: 172px;
+}
+.logo-evernote-large .body-middle {
+  width: 50px;
+  height: 88px;
+  left: 112px;
+  top: 71px;
+}
+.logo-evernote-large .body {
+  width: 50px;
+  height: 57px;
+  left: 90px;
+  top: 120px;
+}
+.logo-evernote-large .ear-curve-none {
+  -webkit-border-radius: 0 0 6px 0;
+  -moz-border-radius: 0 0 6px 0;
+  -ms-border-radius: 0 0 6px 0;
+  -o-border-radius: 0 0 6px 0;
+  border-radius: 0 0 6px 0;
+  width: 10px;
+  height: 10px;
+  left: 102px;
+  top: 88px;
+}
+.logo-evernote-large .ear-curve {
+  -webkit-border-radius: 0 0 2px 0;
+  -moz-border-radius: 0 0 2px 0;
+  -ms-border-radius: 0 0 2px 0;
+  -o-border-radius: 0 0 2px 0;
+  border-radius: 0 0 2px 0;
+  width: 8px;
+  height: 8px;
+  left: 99px;
+  top: 85px;
+}
+.logo-evernote-small {
+  background-color: #87c441;
+  width: 52px;
+  height: 52px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+  border-radius: 26px;
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.logo-evernote-small div {
+  position: absolute;
+  background-color: #ffffff;
+}
+.logo-evernote-small div[class*=-none] {
+  background-color: #87c441;
+}
+.logo-evernote-small .head {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+  -webkit-border-radius: 0 20% 0 1.9066666666666667px;
+  -moz-border-radius: 0 20% 0 1.9066666666666667px;
+  -ms-border-radius: 0 20% 0 1.9066666666666667px;
+  -o-border-radius: 0 20% 0 1.9066666666666667px;
+  border-radius: 0 20% 0 1.9066666666666667px;
+  width: 12.306666666666667px;
+  height: 17.853333333333335px;
+  left: 26.52px;
+  top: 13px;
+}
+.logo-evernote-small .head-top {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+  width: 11.266666666666667px;
+  height: 2.08px;
+  left: 26.693333333333335px;
+  top: 12.306666666666667px;
+}
+.logo-evernote-small .head-right {
+  width: 1.9066666666666667px;
+  height: 19.933333333333334px;
+  left: 37.61333333333334px;
+  top: 15.253333333333334px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
+.logo-evernote-small .head-bottom {
+  -webkit-border-radius: 0 0 0 3.466666666666667px;
+  -moz-border-radius: 0 0 0 3.466666666666667px;
+  -ms-border-radius: 0 0 0 3.466666666666667px;
+  -o-border-radius: 0 0 0 3.466666666666667px;
+  border-radius: 0 0 0 3.466666666666667px;
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+  width: 12.133333333333333px;
+  height: 2.7733333333333334px;
+  top: 29.293333333333333px;
+  left: 26.173333333333336px;
+}
+.logo-evernote-small .trunk-right {
+  -webkit-border-radius: 0 40% 62% 4.506666666666667px;
+  -moz-border-radius: 0 40% 62% 4.506666666666667px;
+  -ms-border-radius: 0 40% 62% 4.506666666666667px;
+  -o-border-radius: 0 40% 62% 4.506666666666667px;
+  border-radius: 0 40% 62% 4.506666666666667px;
+  width: 7.800000000000001px;
+  height: 19.066666666666666px;
+  left: 31.373333333333335px;
+  top: 23.053333333333335px;
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+.logo-evernote-small .trunk-bottom {
+  -webkit-border-radius: 1.2133333333333334px 0 26% 40%;
+  -moz-border-radius: 1.2133333333333334px 0 26% 40%;
+  -ms-border-radius: 1.2133333333333334px 0 26% 40%;
+  -o-border-radius: 1.2133333333333334px 0 26% 40%;
+  border-radius: 1.2133333333333334px 0 26% 40%;
+  width: 9.706666666666667px;
+  height: 5.2px;
+  top: 37.093333333333334px;
+  left: 26.346666666666668px;
+}
+.logo-evernote-small .trunk-left {
+  -webkit-border-radius: 40% 0 0 39%;
+  -moz-border-radius: 40% 0 0 39%;
+  -ms-border-radius: 40% 0 0 39%;
+  -o-border-radius: 40% 0 0 39%;
+  border-radius: 40% 0 0 39%;
+  width: 6.24px;
+  height: 7.973333333333334px;
+  top: 33.973333333333336px;
+  left: 26px;
+}
+.logo-evernote-small .trunk-bottom-none {
+  -webkit-border-radius: 22% 0 1.56px 26%;
+  -moz-border-radius: 22% 0 1.56px 26%;
+  -ms-border-radius: 22% 0 1.56px 26%;
+  -o-border-radius: 22% 0 1.56px 26%;
+  border-radius: 22% 0 1.56px 26%;
+  width: 5.546666666666667px;
+  height: 2.4266666666666667px;
+  left: 28.773333333333333px;
+  top: 36.4px;
+}
+.logo-evernote-small .trunk-right-none {
+  -webkit-border-radius: 130% 140% 50% 121%;
+  -moz-border-radius: 130% 140% 50% 121%;
+  -ms-border-radius: 130% 140% 50% 121%;
+  -o-border-radius: 130% 140% 50% 121%;
+  border-radius: 130% 140% 50% 121%;
+  width: 3.2933333333333334px;
+  height: 5.546666666666667px;
+  top: 32.413333333333334px;
+  left: 31.026666666666667px;
+}
+.logo-evernote-small .trunk-left-none {
+  -webkit-border-radius: 0 170% 0 0;
+  -moz-border-radius: 0 170% 0 0;
+  -ms-border-radius: 0 170% 0 0;
+  -o-border-radius: 0 170% 0 0;
+  border-radius: 0 170% 0 0;
+  width: 3.12px;
+  height: 2.08px;
+  left: 30.853333333333335px;
+  top: 31.893333333333334px;
+}
+.logo-evernote-small .head-none {
+  -webkit-border-radius: 1.7333333333333334px 1.7333333333333334px 0 0;
+  -moz-border-radius: 1.7333333333333334px 1.7333333333333334px 0 0;
+  -ms-border-radius: 1.7333333333333334px 1.7333333333333334px 0 0;
+  -o-border-radius: 1.7333333333333334px 1.7333333333333334px 0 0;
+  border-radius: 1.7333333333333334px 1.7333333333333334px 0 0;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+  width: 3.2933333333333334px;
+  height: 2.6px;
+  left: 31.546666666666667px;
+  top: 23.226666666666667px;
+}
+.logo-evernote-small .eye {
+  -webkit-border-radius: 100% 150% 0 0;
+  -moz-border-radius: 100% 150% 0 0;
+  -ms-border-radius: 100% 150% 0 0;
+  -o-border-radius: 100% 150% 0 0;
+  border-radius: 100% 150% 0 0;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+  width: 3.8133333333333335px;
+  height: 0.8666666666666667px;
+  left: 31.200000000000003px;
+  top: 25.133333333333333px;
+}
+.logo-evernote-small .ear-flap {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 5.720000000000001px;
+  height: 8.84px;
+  top: 11.266666666666667px;
+  left: 15.08px;
+}
+.logo-evernote-small .ear-flap-left-none {
+  -webkit-border-radius: 2.7733333333333334px 0 0 0;
+  -moz-border-radius: 2.7733333333333334px 0 0 0;
+  -ms-border-radius: 2.7733333333333334px 0 0 0;
+  -o-border-radius: 2.7733333333333334px 0 0 0;
+  border-radius: 2.7733333333333334px 0 0 0;
+  width: 6.76px;
+  height: 3.466666666666667px;
+  top: 16.12px;
+  left: 11.613333333333333px;
+}
+.logo-evernote-small .ear-flap-right-none {
+  -webkit-border-radius: 1.56px 0 0 0;
+  -moz-border-radius: 1.56px 0 0 0;
+  -ms-border-radius: 1.56px 0 0 0;
+  -o-border-radius: 1.56px 0 0 0;
+  border-radius: 1.56px 0 0 0;
+  width: 4.333333333333334px;
+  height: 5.546666666666667px;
+  top: 10.053333333333335px;
+  left: 18.546666666666667px;
+}
+.logo-evernote-small .body-top {
+  -webkit-border-radius: 100% 110% 112% 100%;
+  -moz-border-radius: 100% 110% 112% 100%;
+  -ms-border-radius: 100% 110% 112% 100%;
+  -o-border-radius: 100% 110% 112% 100%;
+  border-radius: 100% 110% 112% 100%;
+  width: 9.013333333333334px;
+  height: 5.026666666666667px;
+  top: 9.706666666666667px;
+  left: 19.413333333333334px;
+}
+.logo-evernote-small .body-left {
+  -webkit-border-radius: 6.933333333333334px 0 0 167%;
+  -moz-border-radius: 6.933333333333334px 0 0 167%;
+  -ms-border-radius: 6.933333333333334px 0 0 167%;
+  -o-border-radius: 6.933333333333334px 0 0 167%;
+  border-radius: 6.933333333333334px 0 0 167%;
+  width: 9.013333333333334px;
+  height: 5.026666666666667px;
+  top: 16.986666666666668px;
+  left: 12.48px;
+}
+.logo-evernote-small .body-bottom-right {
+  -webkit-transform: rotate(11deg);
+  -moz-transform: rotate(11deg);
+  -ms-transform: rotate(11deg);
+  -o-transform: rotate(11deg);
+  transform: rotate(11deg);
+  -webkit-border-radius: 100% 100% 75% 0;
+  -moz-border-radius: 100% 100% 75% 0;
+  -ms-border-radius: 100% 100% 75% 0;
+  -o-border-radius: 100% 100% 75% 0;
+  border-radius: 100% 100% 75% 0;
+  width: 3.12px;
+  height: 7.28px;
+  top: 25.826666666666668px;
+  left: 22.880000000000003px;
+}
+.logo-evernote-small .body-bottom-left {
+  -webkit-transform: rotate(-11deg);
+  -moz-transform: rotate(-11deg);
+  -ms-transform: rotate(-11deg);
+  -o-transform: rotate(-11deg);
+  transform: rotate(-11deg);
+  -webkit-border-radius: 67% 100% 120% 68%;
+  -moz-border-radius: 67% 100% 120% 68%;
+  -ms-border-radius: 67% 100% 120% 68%;
+  -o-border-radius: 67% 100% 120% 68%;
+  border-radius: 67% 100% 120% 68%;
+  height: 13.52px;
+  width: 3.64px;
+  left: 13.173333333333334px;
+  top: 17.68px;
+}
+.logo-evernote-small .body-bottom {
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  -webkit-border-radius: 171% 120% 4.16px 100%;
+  -moz-border-radius: 171% 120% 4.16px 100%;
+  -ms-border-radius: 171% 120% 4.16px 100%;
+  -o-border-radius: 171% 120% 4.16px 100%;
+  border-radius: 171% 120% 4.16px 100%;
+  width: 10.573333333333334px;
+  height: 2.6px;
+  left: 14.906666666666666px;
+  top: 29.813333333333333px;
+}
+.logo-evernote-small .body-middle {
+  width: 8.666666666666668px;
+  height: 15.253333333333334px;
+  left: 19.413333333333334px;
+  top: 12.306666666666667px;
+}
+.logo-evernote-small .body {
+  width: 8.666666666666668px;
+  height: 9.88px;
+  left: 15.600000000000001px;
+  top: 20.8px;
+}
+.logo-evernote-small .ear-curve-none {
+  -webkit-border-radius: 0 0 1.04px 0;
+  -moz-border-radius: 0 0 1.04px 0;
+  -ms-border-radius: 0 0 1.04px 0;
+  -o-border-radius: 0 0 1.04px 0;
+  border-radius: 0 0 1.04px 0;
+  width: 1.7333333333333334px;
+  height: 1.7333333333333334px;
+  left: 17.68px;
+  top: 15.253333333333334px;
+}
+.logo-evernote-small .ear-curve {
+  -webkit-border-radius: 0 0 0.3466666666666667px 0;
+  -moz-border-radius: 0 0 0.3466666666666667px 0;
+  -ms-border-radius: 0 0 0.3466666666666667px 0;
+  -o-border-radius: 0 0 0.3466666666666667px 0;
+  border-radius: 0 0 0.3466666666666667px 0;
+  width: 1.3866666666666667px;
+  height: 1.3866666666666667px;
+  left: 17.16px;
+  top: 14.733333333333334px;
+}
