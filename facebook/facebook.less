@@ -1,0 +1,89 @@
+// FACEBOOK
+@facebook: #3B579D;
+@white: #ffffff;
+
+.logo-facebook-large {
+  .logo-facebook(150px);
+}
+
+.logo-facebook-small {
+  .logo-facebook(26px);
+}
+
+.logo-facebook(@radius) {
+  @ratio: (2 * @radius) / 300;
+  background-color: @facebook;
+  width: 2 * @radius;
+  height: 2 * @radius;
+  position: relative;
+  overflow: hidden;
+  .border-radius(@radius);
+  .border-radius-fix();
+  .user-select-none();
+  div {
+    position: absolute;
+    background-color: @white;
+    &[class*=-none] {
+      background-color: @facebook;
+    }
+  }
+  .longpiece {
+    width: 94 * @ratio;
+    height: 260 * @ratio;
+    border: 47 * @ratio @white solid;
+    .border-radius(55 * @ratio, 0, 0, 0);
+    left: 160 * @ratio;
+    top: 45 * @ratio;
+  }
+  .longpiece-none {
+    width: 55 * @ratio;
+    height: 210 * @ratio;
+    .border-radius(21 * @ratio, 0, 0, 0);
+    left: 206 * @ratio;
+    top: 87 * @ratio;
+  }
+  .shortpiece {
+    width: 130 * @ratio;
+    height: 43 * @ratio;
+    left: 121 * @ratio;
+    top: 140 * @ratio;
+  }
+  .shortpiece-none {
+    width: 10 * @ratio;
+    height: 50 * @ratio;
+    left: 248 * @ratio;
+    top: 138 * @ratio;
+    .transform(rotate(8deg));
+  }
+}
+
+
+// MIXINS
+.border-radius(@radius...) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.border-radius-fix() {
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+.user-select-none() {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.transform(@rules) {
+  -webkit-transform: @rules;
+  -moz-transform: @rules;
+  -ms-transform: @rules;
+  -o-transform: @rules;
+  transform: @rules;
+}
+
