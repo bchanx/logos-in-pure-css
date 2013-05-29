@@ -1,0 +1,196 @@
+// GITHUB
+@github: #171516;
+@white: #ffffff;
+
+.logo-github-large {
+  .logo-github(150px);
+}
+
+.logo-github-small {
+  .logo-github(26px);
+}
+
+.logo-github(@radius) {
+  @ratio: (2 * @radius) / 300;
+  background-color: @github;
+  width: 2 * @radius;
+  height: 2 * @radius;
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  .border-radius(@radius);
+  .border-radius-fix();
+  .user-select-none();
+  div {
+    position: absolute;
+    .border-radius(100%);
+    background-color: @white;
+    &[class*=-none] {
+      background-color: @github;
+    }
+  }
+  .head {
+    width: 188 * @ratio;
+    height: 140 * @ratio;
+    left: 56 * @ratio;
+    top: 75 * @ratio;
+  }
+  .chin-left {
+    width: 125 * @ratio;
+    height: 136 * @ratio;
+    left: 54 * @ratio;
+    top: 82 * @ratio;
+  }
+  .chin-right {
+    width: 125 * @ratio;
+    height: 136 * @ratio;
+    left: 121 * @ratio;
+    top: 82 * @ratio;
+  }
+  .ear-one-left {
+    width: 70 * @ratio;
+    height: 90 * @ratio;
+    left: 67 * @ratio;
+    top: 42 * @ratio;
+  }
+  .ear-one-right {
+    width: 46 * @ratio;
+    height: 12 * @ratio;
+    left: 69 * @ratio;
+    top: 69 * @ratio;
+    .transform(rotate(23deg));
+  }
+  .ear-one-none {
+    width: 102 * @ratio;
+    height: 45 * @ratio;
+    left: 70 * @ratio;
+    top: 37 * @ratio;
+  }
+  .ear-two-left {
+    width: 46 * @ratio;
+    height: 12 * @ratio;
+    left: 185 * @ratio;
+    top: 69 * @ratio;
+    .transform(rotate(-23deg));
+  }
+  .ear-two-right {
+    width: 70 * @ratio;
+    height: 90 * @ratio;
+    left: 163 * @ratio;
+    top: 42 * @ratio;
+  }
+  .ear-two-none {
+    width: 102 * @ratio;
+    height: 45 * @ratio;
+    left: 128 * @ratio;
+    top: 37 * @ratio;
+  }
+  .body-left {
+    .border-radius(100% 100% 0 0);
+    width: 56 * @ratio;
+    height: 88 * @ratio;
+    left: 112 * @ratio;
+    top: 209 * @ratio;
+  }
+  .body-left-none {
+    width: 8 * @ratio;
+    height: 40 * @ratio;
+    left: 104 * @ratio;
+    top: 254 * @ratio;
+    .border-radius(4 * @ratio, 0, 4 * @ratio, 0);
+  }
+  .body-right {
+    .border-radius(100% 100% 0 0);
+    width: 56 * @ratio;
+    height: 88 * @ratio;
+    left: 132 * @ratio;
+    top: 209 * @ratio;
+  }
+  .body-right-none {
+    width: 8 * @ratio;
+    height: 40 * @ratio;
+    left: 188 * @ratio;
+    top: 254 * @ratio;
+    .border-radius(0, 4 * @ratio, 0, 4 * @ratio);
+  }
+  .body-bottom {
+    width: 88 * @ratio;
+    height: 18 * @ratio;
+    left: 106 * @ratio;
+    top: 285 * @ratio;
+  }
+  .tail-end {
+    .transform(rotate(-35deg));
+    width: 16 * @ratio;
+    height: 35 * @ratio;
+    left: 53 * @ratio;
+    top: 211 * @ratio;
+  }
+  .tail-body {
+    width: 78 * @ratio;
+    height: 48 * @ratio;
+    left: 63 * @ratio;
+    top: 213 * @ratio;
+  }
+  .tail-body-spots {
+    border: 5 * @ratio @github dotted;
+    background: transparent;
+    .border-radius(0, 0, 145 * @ratio, 130 * @ratio);
+    width: 100 * @ratio;
+    height: 59 * @ratio;
+    left: 52 * @ratio;
+    top: 190 * @ratio;
+  }
+  .tail-end-none {
+    .transform(rotate(-24deg));
+    width: 17 * @ratio;
+    height: 48 * @ratio;
+    left: 46 * @ratio;
+    top: 218 * @ratio;
+  }
+  .tail-body-none {
+    width: 67 * @ratio;
+    height: 48 * @ratio;
+    left: 67 * @ratio;
+    top: 194 * @ratio;
+  }
+  .tail-tip {
+    .transform(rotate(12deg));
+    width: 20 * @ratio;
+    height: 9 * @ratio;
+    left: 41 * @ratio;
+    top: 212 * @ratio;
+  }
+}
+
+
+// MIXINS
+.border-radius(@radius...) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.border-radius-fix() {
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+.user-select-none() {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.transform(@rules) {
+  -webkit-transform: @rules;
+  -moz-transform: @rules;
+  -ms-transform: @rules;
+  -o-transform: @rules;
+  transform: @rules;
+}
+
