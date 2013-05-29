@@ -1,0 +1,132 @@
+// TWITTER
+@twitter: #00ACED;
+@white: #ffffff;
+
+.logo-twitter-large {
+  .logo-twitter(150px);
+}
+
+.logo-twitter-small {
+  .logo-twitter(26px);
+}
+
+.logo-twitter(@radius) {
+  @ratio: (2 * @radius) / 300;
+  background-color: @twitter;
+  width: 2 * @radius;
+  height: 2 * @radius;
+  position: relative;
+  overflow: hidden;
+  .border-radius(100%);
+  .border-radius-fix();
+  .user-select-none();
+  div {
+    position: absolute;
+    .border-radius(100%);
+    background-color: @white;
+    &[class*=-none] {
+      background-color: @twitter;
+    }
+  }
+  .body {
+    top: 16 * @ratio;
+    left: 15 * @ratio;
+    width: 206 * @ratio;
+    height: 206 * @ratio;
+  }
+  .body-none {
+    top: 56 * @ratio;
+    left: -6 * @ratio;
+    width: 150 * @ratio;
+    height: 150 * @ratio;
+  }
+  .wing-top {
+    top: 65 * @ratio;
+    left: 68 * @ratio;
+    width: 88 * @ratio;
+    height: 77 * @ratio;
+  }
+  .wing-top-none {
+    top: -77 * @ratio;
+    left: 53 * @ratio;
+    width: 200 * @ratio;
+    height: 200 * @ratio;
+  }
+  .wing-middle {
+    top: 95 * @ratio;
+    left: 68 * @ratio;
+    width: 88 * @ratio;
+    height: 73 * @ratio;
+  }
+  .wing-middle-none {
+    top: -25 * @ratio;
+    left: 20 * @ratio;
+    width: 160 * @ratio;
+    height: 160 * @ratio;
+  }
+  .wing-bottom {
+    top: 121 * @ratio;
+    left: 80 * @ratio;
+    width: 70 * @ratio;
+    height: 70 * @ratio;
+  }
+  .wing-bottom-none {
+    top: 106 * @ratio;
+    left: 58 * @ratio;
+    width: 60 * @ratio;
+    height: 60 * @ratio;
+  }
+  .beak-bottom {
+    width: 100 * @ratio;
+    height: 100 * @ratio;
+    left: 145 * @ratio;
+    top: 21 * @ratio;
+  }
+  .beak-bottom-none {
+    width: 115 * @ratio;
+    height: 115 * @ratio;
+    left: 155 * @ratio;
+    top: -14 * @ratio;
+  }
+  .beak-top {
+    width: 65 * @ratio;
+    height: 65 * @ratio;
+    left: 170 * @ratio;
+    top: 39 * @ratio;
+  }
+  .beak-top-none {
+    width: 115 * @ratio;
+    height: 115 * @ratio;
+    left: 144 * @ratio;
+    top: -25 * @ratio;
+  }
+  .head {
+    width: 72 * @ratio;
+    height: 72 * @ratio;
+    left: 148 * @ratio;
+    top: 78 * @ratio;
+  }
+}
+
+
+// MIXINS
+.border-radius(@radius...) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.border-radius-fix() {
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+.user-select-none() {                                                   
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
