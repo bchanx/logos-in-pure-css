@@ -1,6 +1,8 @@
 logos-in-pure-css
 =================
 
+![Logos In Pure CSS](https://raw.github.com/bchanx/logos-in-pure-css/master/banner.png)
+
 Company logos created in pure CSS, built in [less](http://www.lesscss.org).  
 **See it in action here:** [bchanx.com/logos-in-pure-css-demo](http://www.bchanx.com/logos-in-pure-css-demo)
 
