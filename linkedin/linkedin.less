@@ -1,0 +1,86 @@
+// LINKEDIN
+@linkedin: #007BB6;
+@white: #ffffff;
+
+.logo-linkedin-large {
+  .logo-linkedin(150px);
+}
+
+.logo-linkedin-small {
+  .logo-linkedin(26px);
+}
+
+.logo-linkedin(@radius) {
+  @ratio: (2 * @radius) / 300;
+  background-color: @linkedin;
+  width: 2 * @radius;
+  height: 2 * @radius;
+  position: relative;
+  overflow: hidden;
+  .border-radius(@radius);
+  .border-radius-fix();
+  .user-select-none();
+  div {
+    position: absolute;
+    background-color: @white;
+    &[class*=-none] {
+      background-color: @linkedin;
+    }
+  }
+  .i-dot {
+    .border-radius(100%);
+    width: 43 * @ratio;
+    height: 43 * @ratio;
+    left: 59 * @ratio;
+    top: 60 * @ratio;
+  }
+  .i-body {
+    width: 37 * @ratio;
+    height: 118 * @ratio;
+    left: 62 * @ratio;
+    top: 119 * @ratio;
+  }
+  .n-body {
+    width: 36 * @ratio;
+    height: 118 * @ratio;
+    left: 122 * @ratio;
+    top: 119 * @ratio;
+  }
+  .n-curve {
+    .border-radius(36 * @ratio, 42 * @ratio, 0, 0);
+    width: 84 * @ratio;
+    height: 121 * @ratio;
+    left: 154 * @ratio;
+    top: 116 * @ratio;
+  }
+  .n-curve-none {
+    .border-radius(31 * @ratio, 23 * @ratio, 0, 0);
+    width: 41 * @ratio;
+    height: 95 * @ratio;
+    left: 159 * @ratio;
+    top: 148 * @ratio;
+  }
+}
+
+
+// MIXINS
+.border-radius(@radius...) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.border-radius-fix() {
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+.user-select-none() {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+

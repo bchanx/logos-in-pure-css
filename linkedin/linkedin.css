@@ -1,0 +1,140 @@
+.logo-linkedin-large {
+  background-color: #007bb6;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  -ms-border-radius: 150px;
+  -o-border-radius: 150px;
+  border-radius: 150px;
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.logo-linkedin-large div {
+  position: absolute;
+  background-color: #ffffff;
+}
+.logo-linkedin-large div[class*=-none] {
+  background-color: #007bb6;
+}
+.logo-linkedin-large .i-dot {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  width: 43px;
+  height: 43px;
+  left: 59px;
+  top: 60px;
+}
+.logo-linkedin-large .i-body {
+  width: 37px;
+  height: 118px;
+  left: 62px;
+  top: 119px;
+}
+.logo-linkedin-large .n-body {
+  width: 36px;
+  height: 118px;
+  left: 122px;
+  top: 119px;
+}
+.logo-linkedin-large .n-curve {
+  -webkit-border-radius: 36px 42px 0 0;
+  -moz-border-radius: 36px 42px 0 0;
+  -ms-border-radius: 36px 42px 0 0;
+  -o-border-radius: 36px 42px 0 0;
+  border-radius: 36px 42px 0 0;
+  width: 84px;
+  height: 121px;
+  left: 154px;
+  top: 116px;
+}
+.logo-linkedin-large .n-curve-none {
+  -webkit-border-radius: 31px 23px 0 0;
+  -moz-border-radius: 31px 23px 0 0;
+  -ms-border-radius: 31px 23px 0 0;
+  -o-border-radius: 31px 23px 0 0;
+  border-radius: 31px 23px 0 0;
+  width: 41px;
+  height: 95px;
+  left: 159px;
+  top: 148px;
+}
+.logo-linkedin-small {
+  background-color: #007bb6;
+  width: 52px;
+  height: 52px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+  border-radius: 26px;
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.logo-linkedin-small div {
+  position: absolute;
+  background-color: #ffffff;
+}
+.logo-linkedin-small div[class*=-none] {
+  background-color: #007bb6;
+}
+.logo-linkedin-small .i-dot {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  width: 7.453333333333333px;
+  height: 7.453333333333333px;
+  left: 10.226666666666667px;
+  top: 10.4px;
+}
+.logo-linkedin-small .i-body {
+  width: 6.413333333333334px;
+  height: 20.453333333333333px;
+  left: 10.746666666666666px;
+  top: 20.62666666666667px;
+}
+.logo-linkedin-small .n-body {
+  width: 6.24px;
+  height: 20.453333333333333px;
+  left: 21.14666666666667px;
+  top: 20.62666666666667px;
+}
+.logo-linkedin-small .n-curve {
+  -webkit-border-radius: 6.24px 7.28px 0 0;
+  -moz-border-radius: 6.24px 7.28px 0 0;
+  -ms-border-radius: 6.24px 7.28px 0 0;
+  -o-border-radius: 6.24px 7.28px 0 0;
+  border-radius: 6.24px 7.28px 0 0;
+  width: 14.56px;
+  height: 20.973333333333333px;
+  left: 26.693333333333335px;
+  top: 20.10666666666667px;
+}
+.logo-linkedin-small .n-curve-none {
+  -webkit-border-radius: 5.373333333333333px 3.986666666666667px 0 0;
+  -moz-border-radius: 5.373333333333333px 3.986666666666667px 0 0;
+  -ms-border-radius: 5.373333333333333px 3.986666666666667px 0 0;
+  -o-border-radius: 5.373333333333333px 3.986666666666667px 0 0;
+  border-radius: 5.373333333333333px 3.986666666666667px 0 0;
+  width: 7.106666666666667px;
+  height: 16.46666666666667px;
+  left: 27.560000000000002px;
+  top: 25.653333333333336px;
+}
