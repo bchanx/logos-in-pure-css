@@ -164,6 +164,9 @@
 .logo-github-large .tail-body-spots {
   border: 5px #171516 dotted;
   background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-border-radius: 0 0 145px 130px;
   -moz-border-radius: 0 0 145px 130px;
   -ms-border-radius: 0 0 145px 130px;
@@ -368,6 +371,9 @@
 .logo-github-small .tail-body-spots {
   border: 0.8666666666666667px #171516 dotted;
   background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-border-radius: 0 0 25.133333333333333px 22.533333333333335px;
   -moz-border-radius: 0 0 25.133333333333333px 22.533333333333335px;
   -ms-border-radius: 0 0 25.133333333333333px 22.533333333333335px;

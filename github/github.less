@@ -136,6 +136,7 @@
   .tail-body-spots {
     border: 5 * @ratio @github dotted;
     background: transparent;
+    .box-sizing();
     .border-radius(0, 0, 145 * @ratio, 130 * @ratio);
     width: 100 * @ratio;
     height: 59 * @ratio;
@@ -184,6 +185,12 @@
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+}
+
+.box-sizing() {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
 }
 
 .transform(@rules) {
