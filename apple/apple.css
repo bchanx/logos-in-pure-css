@@ -27,10 +27,10 @@
   -ms-border-radius: 0 0 50% 50%;
   -o-border-radius: 0 0 50% 50%;
   border-radius: 0 0 50% 50%;
-  width: 47px;
+  width: 44px;
   height: 30px;
-  left: 89px;
-  top: 209px;
+  left: 87px;
+  top: 224px;
 }
 .logo-apple-large .blue-curve-right {
   background-color: #009cdc;
@@ -39,17 +39,17 @@
   -ms-border-radius: 0 0 50% 50%;
   -o-border-radius: 0 0 50% 50%;
   border-radius: 0 0 50% 50%;
-  width: 47px;
+  width: 44px;
   height: 30px;
-  left: 162px;
-  top: 209px;
+  left: 164px;
+  top: 224px;
 }
 .logo-apple-large .blue {
   background-color: #009cdc;
-  width: 152px;
-  height: 26px;
-  left: 73px;
-  top: 209px;
+  width: 160px;
+  height: 29px;
+  left: 67px;
+  top: 221px;
 }
 .logo-apple-large .blue-none {
   background-color: #ffffff;
@@ -58,30 +58,30 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  width: 50px;
-  height: 19px;
-  left: 124px;
-  top: 231px;
+  width: 53px;
+  height: 23px;
+  left: 121px;
+  top: 244px;
 }
 .logo-apple-large .purple {
   background-color: #963d97;
-  width: 182px;
-  height: 28px;
-  left: 59px;
-  top: 185px;
+  width: 190px;
+  height: 29px;
+  left: 53px;
+  top: 195px;
 }
 .logo-apple-large .red {
   background-color: #e13a3d;
-  width: 190px;
-  height: 25px;
-  left: 51px;
-  top: 163px;
+  width: 200px;
+  height: 30px;
+  left: 46px;
+  top: 166px;
 }
 .logo-apple-large .orange {
   background-color: #f6832c;
-  width: 162px;
-  height: 30px;
-  left: 52px;
+  width: 168px;
+  height: 33px;
+  left: 48px;
   top: 135px;
 }
 .logo-apple-large .orange-curve {
@@ -93,15 +93,15 @@
   border-radius: 100%;
   width: 6px;
   height: 40px;
-  left: 50px;
-  top: 129px;
+  left: 45px;
+  top: 131px;
 }
 .logo-apple-large .yellow {
   background-color: #fcb83e;
-  width: 178px;
-  height: 28px;
-  left: 49px;
-  top: 109px;
+  width: 184px;
+  height: 31px;
+  left: 46px;
+  top: 106px;
 }
 .logo-apple-large .green-curve-left {
   background-color: #61bc48;
@@ -110,10 +110,10 @@
   -ms-border-radius: 50% 50% 0 0;
   -o-border-radius: 50% 50% 0 0;
   border-radius: 50% 50% 0 0;
-  width: 55px;
-  height: 22px;
+  width: 51px;
+  height: 19px;
   left: 80px;
-  top: 87px;
+  top: 79px;
 }
 .logo-apple-large .green-curve-right {
   background-color: #61bc48;
@@ -122,17 +122,17 @@
   -ms-border-radius: 50% 50% 0 0;
   -o-border-radius: 50% 50% 0 0;
   border-radius: 50% 50% 0 0;
-  width: 55px;
-  height: 22px;
-  left: 163px;
-  top: 87px;
+  width: 53px;
+  height: 19px;
+  left: 164px;
+  top: 79px;
 }
 .logo-apple-large .green {
   background-color: #61bc48;
-  width: 176px;
-  height: 21px;
-  left: 59px;
-  top: 91px;
+  width: 181px;
+  height: 24px;
+  left: 56px;
+  top: 83px;
 }
 .logo-apple-large .green-none {
   background-color: #ffffff;
@@ -141,10 +141,10 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  width: 46px;
-  height: 16px;
-  left: 126px;
-  top: 79px;
+  width: 53px;
+  height: 26px;
+  left: 121px;
+  top: 62px;
 }
 .logo-apple-large .green-leaf {
   -webkit-border-radius: 100% 0 100% 0;
@@ -153,10 +153,10 @@
   -o-border-radius: 100% 0 100% 0;
   border-radius: 100% 0 100% 0;
   background-color: #61bc48;
-  width: 47px;
-  height: 49px;
-  top: 40px;
-  left: 141px;
+  width: 49px;
+  height: 56px;
+  top: 25px;
+  left: 139px;
 }
 .logo-apple-large .bottom-left-none {
   background-color: transparent;
@@ -164,10 +164,10 @@
   background-image: -o-radial-gradient(100% 0, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: -webkit-radial-gradient(100% 0, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: radial-gradient(at top right, rgba(0,0,0,0) 70%, #ffffff 0);
-  width: 76px;
-  height: 135px;
-  left: 44px;
-  top: 108px;
+  width: 82px;
+  height: 146px;
+  left: 40px;
+  top: 114px;
 }
 .logo-apple-large .bottom-right-none {
   background-color: transparent;
@@ -175,10 +175,10 @@
   background-image: -o-radial-gradient(0 0, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: -webkit-radial-gradient(0 0, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: radial-gradient(at top left, rgba(0,0,0,0) 70%, #ffffff 0);
-  width: 79px;
-  height: 137px;
-  left: 177px;
-  top: 106px;
+  width: 87px;
+  height: 155px;
+  left: 171px;
+  top: 105px;
 }
 .logo-apple-large .top-left-none {
   background-color: transparent;
@@ -186,10 +186,10 @@
   background-image: -o-radial-gradient(100% 100%, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: -webkit-radial-gradient(100% 100%, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: radial-gradient(at bottom right, rgba(0,0,0,0) 70%, #ffffff 0);
-  width: 58px;
-  height: 62px;
-  left: 49px;
-  top: 86px;
+  width: 61px;
+  height: 70px;
+  left: 44px;
+  top: 78px;
 }
 .logo-apple-large .top-right-none {
   background-color: transparent;
@@ -200,7 +200,7 @@
   width: 58px;
   height: 62px;
   left: 191px;
-  top: 86px;
+  top: 78px;
 }
 .logo-apple-large .apple-none {
   background-color: #ffffff;
@@ -209,10 +209,10 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  width: 83px;
-  height: 83px;
-  left: 209px;
-  top: 104px;
+  width: 85px;
+  height: 94px;
+  left: 210px;
+  top: 99px;
 }
 .logo-apple-small {
   background-color: #ffffff;
@@ -243,10 +243,10 @@
   -ms-border-radius: 0 0 50% 50%;
   -o-border-radius: 0 0 50% 50%;
   border-radius: 0 0 50% 50%;
-  width: 8.146666666666667px;
+  width: 7.626666666666667px;
   height: 5.2px;
-  left: 15.426666666666668px;
-  top: 36.22666666666667px;
+  left: 15.08px;
+  top: 38.82666666666667px;
 }
 .logo-apple-small .blue-curve-right {
   background-color: #009cdc;
@@ -255,17 +255,17 @@
   -ms-border-radius: 0 0 50% 50%;
   -o-border-radius: 0 0 50% 50%;
   border-radius: 0 0 50% 50%;
-  width: 8.146666666666667px;
+  width: 7.626666666666667px;
   height: 5.2px;
-  left: 28.080000000000002px;
-  top: 36.22666666666667px;
+  left: 28.42666666666667px;
+  top: 38.82666666666667px;
 }
 .logo-apple-small .blue {
   background-color: #009cdc;
-  width: 26.346666666666668px;
-  height: 4.506666666666667px;
-  left: 12.653333333333334px;
-  top: 36.22666666666667px;
+  width: 27.733333333333334px;
+  height: 5.026666666666667px;
+  left: 11.613333333333333px;
+  top: 38.306666666666665px;
 }
 .logo-apple-small .blue-none {
   background-color: #ffffff;
@@ -274,30 +274,30 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  width: 8.666666666666668px;
-  height: 3.2933333333333334px;
-  left: 21.493333333333332px;
-  top: 40.04px;
+  width: 9.186666666666667px;
+  height: 3.986666666666667px;
+  left: 20.973333333333333px;
+  top: 42.29333333333334px;
 }
 .logo-apple-small .purple {
   background-color: #963d97;
-  width: 31.546666666666667px;
-  height: 4.8533333333333335px;
-  left: 10.226666666666667px;
-  top: 32.06666666666667px;
+  width: 32.93333333333334px;
+  height: 5.026666666666667px;
+  left: 9.186666666666667px;
+  top: 33.800000000000004px;
 }
 .logo-apple-small .red {
   background-color: #e13a3d;
-  width: 32.93333333333334px;
-  height: 4.333333333333334px;
-  left: 8.84px;
-  top: 28.253333333333334px;
+  width: 34.66666666666667px;
+  height: 5.2px;
+  left: 7.973333333333334px;
+  top: 28.773333333333333px;
 }
 .logo-apple-small .orange {
   background-color: #f6832c;
-  width: 28.080000000000002px;
-  height: 5.2px;
-  left: 9.013333333333334px;
+  width: 29.12px;
+  height: 5.720000000000001px;
+  left: 8.32px;
   top: 23.400000000000002px;
 }
 .logo-apple-small .orange-curve {
@@ -309,15 +309,15 @@
   border-radius: 100%;
   width: 1.04px;
   height: 6.933333333333334px;
-  left: 8.666666666666668px;
-  top: 22.36px;
+  left: 7.800000000000001px;
+  top: 22.706666666666667px;
 }
 .logo-apple-small .yellow {
   background-color: #fcb83e;
-  width: 30.853333333333335px;
-  height: 4.8533333333333335px;
-  left: 8.493333333333334px;
-  top: 18.893333333333334px;
+  width: 31.893333333333334px;
+  height: 5.373333333333333px;
+  left: 7.973333333333334px;
+  top: 18.373333333333335px;
 }
 .logo-apple-small .green-curve-left {
   background-color: #61bc48;
@@ -326,10 +326,10 @@
   -ms-border-radius: 50% 50% 0 0;
   -o-border-radius: 50% 50% 0 0;
   border-radius: 50% 50% 0 0;
-  width: 9.533333333333333px;
-  height: 3.8133333333333335px;
+  width: 8.84px;
+  height: 3.2933333333333334px;
   left: 13.866666666666667px;
-  top: 15.08px;
+  top: 13.693333333333333px;
 }
 .logo-apple-small .green-curve-right {
   background-color: #61bc48;
@@ -338,17 +338,17 @@
   -ms-border-radius: 50% 50% 0 0;
   -o-border-radius: 50% 50% 0 0;
   border-radius: 50% 50% 0 0;
-  width: 9.533333333333333px;
-  height: 3.8133333333333335px;
-  left: 28.253333333333334px;
-  top: 15.08px;
+  width: 9.186666666666667px;
+  height: 3.2933333333333334px;
+  left: 28.42666666666667px;
+  top: 13.693333333333333px;
 }
 .logo-apple-small .green {
   background-color: #61bc48;
-  width: 30.506666666666668px;
-  height: 3.64px;
-  left: 10.226666666666667px;
-  top: 15.773333333333333px;
+  width: 31.373333333333335px;
+  height: 4.16px;
+  left: 9.706666666666667px;
+  top: 14.386666666666667px;
 }
 .logo-apple-small .green-none {
   background-color: #ffffff;
@@ -357,10 +357,10 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  width: 7.973333333333334px;
-  height: 2.7733333333333334px;
-  left: 21.84px;
-  top: 13.693333333333333px;
+  width: 9.186666666666667px;
+  height: 4.506666666666667px;
+  left: 20.973333333333333px;
+  top: 10.746666666666666px;
 }
 .logo-apple-small .green-leaf {
   -webkit-border-radius: 100% 0 100% 0;
@@ -369,10 +369,10 @@
   -o-border-radius: 100% 0 100% 0;
   border-radius: 100% 0 100% 0;
   background-color: #61bc48;
-  width: 8.146666666666667px;
-  height: 8.493333333333334px;
-  top: 6.933333333333334px;
-  left: 24.44px;
+  width: 8.493333333333334px;
+  height: 9.706666666666667px;
+  top: 4.333333333333334px;
+  left: 24.093333333333334px;
 }
 .logo-apple-small .bottom-left-none {
   background-color: transparent;
@@ -380,10 +380,10 @@
   background-image: -o-radial-gradient(100% 0, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: -webkit-radial-gradient(100% 0, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: radial-gradient(at top right, rgba(0,0,0,0) 70%, #ffffff 0);
-  width: 13.173333333333334px;
-  height: 23.400000000000002px;
-  left: 7.626666666666667px;
-  top: 18.72px;
+  width: 14.213333333333335px;
+  height: 25.30666666666667px;
+  left: 6.933333333333334px;
+  top: 19.76px;
 }
 .logo-apple-small .bottom-right-none {
   background-color: transparent;
@@ -391,10 +391,10 @@
   background-image: -o-radial-gradient(0 0, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: -webkit-radial-gradient(0 0, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: radial-gradient(at top left, rgba(0,0,0,0) 70%, #ffffff 0);
-  width: 13.693333333333333px;
-  height: 23.746666666666666px;
-  left: 30.68px;
-  top: 18.373333333333335px;
+  width: 15.08px;
+  height: 26.866666666666667px;
+  left: 29.64px;
+  top: 18.2px;
 }
 .logo-apple-small .top-left-none {
   background-color: transparent;
@@ -402,10 +402,10 @@
   background-image: -o-radial-gradient(100% 100%, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: -webkit-radial-gradient(100% 100%, ellipse, rgba(0,0,0,0) 70%, #ffffff 0);
   background-image: radial-gradient(at bottom right, rgba(0,0,0,0) 70%, #ffffff 0);
-  width: 10.053333333333335px;
-  height: 10.746666666666666px;
-  left: 8.493333333333334px;
-  top: 14.906666666666666px;
+  width: 10.573333333333334px;
+  height: 12.133333333333333px;
+  left: 7.626666666666667px;
+  top: 13.52px;
 }
 .logo-apple-small .top-right-none {
   background-color: transparent;
@@ -416,7 +416,7 @@
   width: 10.053333333333335px;
   height: 10.746666666666666px;
   left: 33.10666666666667px;
-  top: 14.906666666666666px;
+  top: 13.52px;
 }
 .logo-apple-small .apple-none {
   background-color: #ffffff;
@@ -425,8 +425,8 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  width: 14.386666666666667px;
-  height: 14.386666666666667px;
-  left: 36.22666666666667px;
-  top: 18.026666666666667px;
+  width: 14.733333333333334px;
+  height: 16.293333333333333px;
+  left: 36.4px;
+  top: 17.16px;
 }
