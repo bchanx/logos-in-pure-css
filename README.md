@@ -48,6 +48,8 @@ Once imported, copy the accompanying logo .html into your own .html file and the
 </div>
 ```
 
+To see it this in action, open `demo.html` in your browser.
+
 Sizes
 -------
 
