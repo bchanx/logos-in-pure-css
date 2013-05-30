@@ -24,15 +24,26 @@
   background-color: #2795ee;
 }
 .logo-dropbox-large .base-left {
-  -webkit-transform: skew(0, 32deg);
-  -moz-transform: skew(0, 32deg);
-  -ms-transform: skew(0, 32deg);
-  -o-transform: skew(0, 32deg);
-  transform: skew(0, 32deg);
-  width: 56px;
+  -webkit-transform: skew(0, 31deg);
+  -moz-transform: skew(0, 31deg);
+  -ms-transform: skew(0, 31deg);
+  -o-transform: skew(0, 31deg);
+  transform: skew(0, 31deg);
+  width: 61px;
   height: 79px;
-  left: 94px;
-  top: 149px;
+  left: 90px;
+  top: 153px;
+}
+.logo-dropbox-large .base-right {
+  -webkit-transform: skew(0, -31deg);
+  -moz-transform: skew(0, -31deg);
+  -ms-transform: skew(0, -31deg);
+  -o-transform: skew(0, -31deg);
+  transform: skew(0, -31deg);
+  width: 61px;
+  height: 79px;
+  left: 151px;
+  top: 153px;
 }
 .logo-dropbox-large .base-middle {
   -webkit-border-radius: 100%;
@@ -40,98 +51,87 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  width: 6px;
+  width: 8px;
   height: 76px;
   left: 147px;
-  top: 169px;
-}
-.logo-dropbox-large .base-right {
-  -webkit-transform: skew(0, -32deg);
-  -moz-transform: skew(0, -32deg);
-  -ms-transform: skew(0, -32deg);
-  -o-transform: skew(0, -32deg);
-  transform: skew(0, -32deg);
-  width: 56px;
-  height: 79px;
-  left: 150px;
-  top: 149px;
+  top: 171px;
 }
 .logo-dropbox-large .cover-left-none {
-  -webkit-transform: skew(-49deg, 34deg);
-  -moz-transform: skew(-49deg, 34deg);
-  -ms-transform: skew(-49deg, 34deg);
-  -o-transform: skew(-49deg, 34deg);
-  transform: skew(-49deg, 34deg);
-  width: 60px;
+  -webkit-transform: skew(-50deg, 34deg);
+  -moz-transform: skew(-50deg, 34deg);
+  -ms-transform: skew(-50deg, 34deg);
+  -o-transform: skew(-50deg, 34deg);
+  transform: skew(-50deg, 34deg);
+  width: 62px;
   height: 40px;
-  left: 74px;
-  top: 149px;
+  left: 70px;
+  top: 152px;
 }
 .logo-dropbox-large .cover-right-none {
-  -webkit-transform: skew(49deg, -34deg);
-  -moz-transform: skew(49deg, -34deg);
-  -ms-transform: skew(49deg, -34deg);
-  -o-transform: skew(49deg, -34deg);
-  transform: skew(49deg, -34deg);
-  width: 60px;
+  -webkit-transform: skew(50deg, -34deg);
+  -moz-transform: skew(50deg, -34deg);
+  -ms-transform: skew(50deg, -34deg);
+  -o-transform: skew(50deg, -34deg);
+  transform: skew(50deg, -34deg);
+  width: 62px;
   height: 40px;
-  left: 166px;
-  top: 149px;
+  left: 170px;
+  top: 152px;
 }
 .logo-dropbox-large .cover-top {
-  -webkit-transform: skew(49deg, -35deg);
-  -moz-transform: skew(49deg, -35deg);
-  -ms-transform: skew(49deg, -35deg);
-  -o-transform: skew(49deg, -35deg);
-  transform: skew(49deg, -35deg);
-  width: 55px;
+  -webkit-transform: skew(51deg, -33deg);
+  -moz-transform: skew(51deg, -33deg);
+  -ms-transform: skew(51deg, -33deg);
+  -o-transform: skew(51deg, -33deg);
+  transform: skew(51deg, -33deg);
+  width: 60px;
   height: 37px;
-  left: 77px;
-  top: 80px;
+  left: 71px;
+  top: 79px;
 }
 .logo-dropbox-large .cover-bottom {
-  -webkit-transform: skew(49deg, -35deg);
-  -moz-transform: skew(49deg, -35deg);
-  -ms-transform: skew(49deg, -35deg);
-  -o-transform: skew(49deg, -35deg);
-  transform: skew(49deg, -35deg);
-  width: 55px;
+  -webkit-transform: skew(51deg, -33deg);
+  -moz-transform: skew(51deg, -33deg);
+  -ms-transform: skew(51deg, -33deg);
+  -o-transform: skew(51deg, -33deg);
+  transform: skew(51deg, -33deg);
+  width: 60px;
   height: 37px;
-  left: 168px;
-  top: 146px;
+  left: 171px;
+  top: 148px;
 }
 .logo-dropbox-large .cover-right {
-  -webkit-transform: skew(-49deg, 35deg);
-  -moz-transform: skew(-49deg, 35deg);
-  -ms-transform: skew(-49deg, 35deg);
-  -o-transform: skew(-49deg, 35deg);
-  transform: skew(-49deg, 35deg);
-  width: 55px;
+  -webkit-transform: skew(-51deg, 33deg);
+  -moz-transform: skew(-51deg, 33deg);
+  -ms-transform: skew(-51deg, 33deg);
+  -o-transform: skew(-51deg, 33deg);
+  transform: skew(-51deg, 33deg);
+  width: 60px;
   height: 37px;
-  left: 168px;
-  top: 80px;
+  left: 171px;
+  top: 79px;
 }
 .logo-dropbox-large .cover-left {
-  -webkit-transform: skew(-49deg, 35deg);
-  -moz-transform: skew(-49deg, 35deg);
-  -ms-transform: skew(-49deg, 35deg);
-  -o-transform: skew(-49deg, 35deg);
-  transform: skew(-49deg, 35deg);
-  width: 55px;
+  -webkit-transform: skew(-51deg, 33deg);
+  -moz-transform: skew(-51deg, 33deg);
+  -ms-transform: skew(-51deg, 33deg);
+  -o-transform: skew(-51deg, 33deg);
+  transform: skew(-51deg, 33deg);
+  width: 60px;
   height: 37px;
-  left: 77px;
-  top: 146px;
+  left: 71px;
+  top: 148px;
 }
 .logo-dropbox-large .box-none {
-  -webkit-transform: skew(-57deg, 33deg);
-  -moz-transform: skew(-57deg, 33deg);
-  -ms-transform: skew(-57deg, 33deg);
-  -o-transform: skew(-57deg, 33deg);
-  transform: skew(-57deg, 33deg);
-  width: 56px;
-  height: 36px;
-  left: 122px;
-  top: 114px;
+  -webkit-transform: skew(-58deg, 32deg);
+  -moz-transform: skew(-58deg, 32deg);
+  -ms-transform: skew(-58deg, 32deg);
+  -o-transform: skew(-58deg, 32deg);
+  transform: skew(-58deg, 32deg);
+  width: 60px;
+  height: 38px;
+  left: 121px;
+  top: 113px;
 }
 .logo-dropbox-small {
   background-color: #2795ee;
@@ -159,15 +159,26 @@
   background-color: #2795ee;
 }
 .logo-dropbox-small .base-left {
-  -webkit-transform: skew(0, 32deg);
-  -moz-transform: skew(0, 32deg);
-  -ms-transform: skew(0, 32deg);
-  -o-transform: skew(0, 32deg);
-  transform: skew(0, 32deg);
-  width: 9.706666666666667px;
+  -webkit-transform: skew(0, 31deg);
+  -moz-transform: skew(0, 31deg);
+  -ms-transform: skew(0, 31deg);
+  -o-transform: skew(0, 31deg);
+  transform: skew(0, 31deg);
+  width: 10.573333333333334px;
   height: 13.693333333333333px;
-  left: 16.293333333333333px;
-  top: 25.826666666666668px;
+  left: 15.600000000000001px;
+  top: 26.52px;
+}
+.logo-dropbox-small .base-right {
+  -webkit-transform: skew(0, -31deg);
+  -moz-transform: skew(0, -31deg);
+  -ms-transform: skew(0, -31deg);
+  -o-transform: skew(0, -31deg);
+  transform: skew(0, -31deg);
+  width: 10.573333333333334px;
+  height: 13.693333333333333px;
+  left: 26.173333333333336px;
+  top: 26.52px;
 }
 .logo-dropbox-small .base-middle {
   -webkit-border-radius: 100%;
@@ -175,96 +186,85 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  width: 1.04px;
+  width: 1.3866666666666667px;
   height: 13.173333333333334px;
   left: 25.48px;
-  top: 29.293333333333333px;
-}
-.logo-dropbox-small .base-right {
-  -webkit-transform: skew(0, -32deg);
-  -moz-transform: skew(0, -32deg);
-  -ms-transform: skew(0, -32deg);
-  -o-transform: skew(0, -32deg);
-  transform: skew(0, -32deg);
-  width: 9.706666666666667px;
-  height: 13.693333333333333px;
-  left: 26px;
-  top: 25.826666666666668px;
+  top: 29.64px;
 }
 .logo-dropbox-small .cover-left-none {
-  -webkit-transform: skew(-49deg, 34deg);
-  -moz-transform: skew(-49deg, 34deg);
-  -ms-transform: skew(-49deg, 34deg);
-  -o-transform: skew(-49deg, 34deg);
-  transform: skew(-49deg, 34deg);
-  width: 10.4px;
+  -webkit-transform: skew(-50deg, 34deg);
+  -moz-transform: skew(-50deg, 34deg);
+  -ms-transform: skew(-50deg, 34deg);
+  -o-transform: skew(-50deg, 34deg);
+  transform: skew(-50deg, 34deg);
+  width: 10.746666666666666px;
   height: 6.933333333333334px;
-  left: 12.826666666666668px;
-  top: 25.826666666666668px;
+  left: 12.133333333333333px;
+  top: 26.346666666666668px;
 }
 .logo-dropbox-small .cover-right-none {
-  -webkit-transform: skew(49deg, -34deg);
-  -moz-transform: skew(49deg, -34deg);
-  -ms-transform: skew(49deg, -34deg);
-  -o-transform: skew(49deg, -34deg);
-  transform: skew(49deg, -34deg);
-  width: 10.4px;
+  -webkit-transform: skew(50deg, -34deg);
+  -moz-transform: skew(50deg, -34deg);
+  -ms-transform: skew(50deg, -34deg);
+  -o-transform: skew(50deg, -34deg);
+  transform: skew(50deg, -34deg);
+  width: 10.746666666666666px;
   height: 6.933333333333334px;
-  left: 28.773333333333333px;
-  top: 25.826666666666668px;
+  left: 29.46666666666667px;
+  top: 26.346666666666668px;
 }
 .logo-dropbox-small .cover-top {
-  -webkit-transform: skew(49deg, -35deg);
-  -moz-transform: skew(49deg, -35deg);
-  -ms-transform: skew(49deg, -35deg);
-  -o-transform: skew(49deg, -35deg);
-  transform: skew(49deg, -35deg);
-  width: 9.533333333333333px;
+  -webkit-transform: skew(51deg, -33deg);
+  -moz-transform: skew(51deg, -33deg);
+  -ms-transform: skew(51deg, -33deg);
+  -o-transform: skew(51deg, -33deg);
+  transform: skew(51deg, -33deg);
+  width: 10.4px;
   height: 6.413333333333334px;
-  left: 13.346666666666668px;
-  top: 13.866666666666667px;
+  left: 12.306666666666667px;
+  top: 13.693333333333333px;
 }
 .logo-dropbox-small .cover-bottom {
-  -webkit-transform: skew(49deg, -35deg);
-  -moz-transform: skew(49deg, -35deg);
-  -ms-transform: skew(49deg, -35deg);
-  -o-transform: skew(49deg, -35deg);
-  transform: skew(49deg, -35deg);
-  width: 9.533333333333333px;
+  -webkit-transform: skew(51deg, -33deg);
+  -moz-transform: skew(51deg, -33deg);
+  -ms-transform: skew(51deg, -33deg);
+  -o-transform: skew(51deg, -33deg);
+  transform: skew(51deg, -33deg);
+  width: 10.4px;
   height: 6.413333333333334px;
-  left: 29.12px;
-  top: 25.30666666666667px;
+  left: 29.64px;
+  top: 25.653333333333336px;
 }
 .logo-dropbox-small .cover-right {
-  -webkit-transform: skew(-49deg, 35deg);
-  -moz-transform: skew(-49deg, 35deg);
-  -ms-transform: skew(-49deg, 35deg);
-  -o-transform: skew(-49deg, 35deg);
-  transform: skew(-49deg, 35deg);
-  width: 9.533333333333333px;
+  -webkit-transform: skew(-51deg, 33deg);
+  -moz-transform: skew(-51deg, 33deg);
+  -ms-transform: skew(-51deg, 33deg);
+  -o-transform: skew(-51deg, 33deg);
+  transform: skew(-51deg, 33deg);
+  width: 10.4px;
   height: 6.413333333333334px;
-  left: 29.12px;
-  top: 13.866666666666667px;
+  left: 29.64px;
+  top: 13.693333333333333px;
 }
 .logo-dropbox-small .cover-left {
-  -webkit-transform: skew(-49deg, 35deg);
-  -moz-transform: skew(-49deg, 35deg);
-  -ms-transform: skew(-49deg, 35deg);
-  -o-transform: skew(-49deg, 35deg);
-  transform: skew(-49deg, 35deg);
-  width: 9.533333333333333px;
+  -webkit-transform: skew(-51deg, 33deg);
+  -moz-transform: skew(-51deg, 33deg);
+  -ms-transform: skew(-51deg, 33deg);
+  -o-transform: skew(-51deg, 33deg);
+  transform: skew(-51deg, 33deg);
+  width: 10.4px;
   height: 6.413333333333334px;
-  left: 13.346666666666668px;
-  top: 25.30666666666667px;
+  left: 12.306666666666667px;
+  top: 25.653333333333336px;
 }
 .logo-dropbox-small .box-none {
-  -webkit-transform: skew(-57deg, 33deg);
-  -moz-transform: skew(-57deg, 33deg);
-  -ms-transform: skew(-57deg, 33deg);
-  -o-transform: skew(-57deg, 33deg);
-  transform: skew(-57deg, 33deg);
-  width: 9.706666666666667px;
-  height: 6.24px;
-  left: 21.14666666666667px;
-  top: 19.76px;
+  -webkit-transform: skew(-58deg, 32deg);
+  -moz-transform: skew(-58deg, 32deg);
+  -ms-transform: skew(-58deg, 32deg);
+  -o-transform: skew(-58deg, 32deg);
+  transform: skew(-58deg, 32deg);
+  width: 10.4px;
+  height: 6.586666666666667px;
+  left: 20.973333333333333px;
+  top: 19.586666666666666px;
 }
